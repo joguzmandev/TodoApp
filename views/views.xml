@@ -1,19 +1,5 @@
 <odoo>
   <data>
-
-  <record id="act_window_todo_app" model="ir.actions.act_window">
-    <field name="name">Lista de Tarea</field>
-    <field name="res_model">todo.app</field>
-  </record>
-
-
-  <menuitem
-    id="main_menu"
-    name="Todo App"
-    action="todo_app.act_window_todo_app"/>
-
-
-    
     <!-- explicit list view definition -->
 <!--
     <record model="ir.ui.view" id="todo_app.list">
